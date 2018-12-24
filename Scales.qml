@@ -314,11 +314,6 @@ Rectangle {
    width:100
    model: ListModel {
     id: pivotNoteList
-    ListElement { text: "G";  note: 7;  }
-    ListElement { text: "G♯"; note: 8;  }
-    ListElement { text: "A";  note: 9;  }
-    ListElement { text: "B♭"; note: 10; }
-    ListElement { text: "B";  note: 11; }
     ListElement { text: "C";  note: 0;  }
     ListElement { text: "C♯"; note: 1;  }
     ListElement { text: "D";  note: 2;  }
@@ -326,8 +321,13 @@ Rectangle {
     ListElement { text: "E";  note: 4;  }
     ListElement { text: "F";  note: 5;  }
     ListElement { text: "F♯"; note: 6;  }
-   }//end listmodel
-   currentIndex: 5
+     ListElement { text: "G";  note: 7;  }
+    ListElement { text: "G♯"; note: 8;  }
+    ListElement { text: "A";  note: 9;  }
+    ListElement { text: "B♭"; note: 10; }
+    ListElement { text: "B";  note: 11; }
+  }//end listmodel
+   currentIndex: 0
    style: ComboBoxStyle {
     font.family: 'MScore Text'
     font.pointSize: 12
